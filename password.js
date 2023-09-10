@@ -106,7 +106,6 @@ function uppercase(ev) {
 
 function lowercase(ev) {
     let event = ev.target.checked
-    console.log(event)
 
     if (event == true && first.checked != true && third.checked != true && forth.checked != true) {
 
